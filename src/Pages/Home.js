@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <h1>A* Pathfinding Algorithm</h1>
-      <AStar speed={speed} />
+      <AStar speed={speed} canWalkDiagonally={false}/>
     </>
   )
 }
